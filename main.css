@@ -1,0 +1,92 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.main{
+    background-image: url(./images/virtual.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size:cover;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main h1 {
+    color:whitesmoke;
+    font-size: 60px;
+}
+
+#subtext{
+    color:rgb(255, 255, 255);
+    line-height: 3em;
+}
+
+.main .button{
+    text-decoration: none;
+    border:1px red solid;
+    border-radius: 5px;
+    color:whitesmoke;
+    padding:10px;
+
+
+}
+
+.main .button:hover{
+    background-color: brown;
+    
+}
+
+.section-c{
+    
+    display: flex;
+    margin: 20px;
+    gap:20px;
+    
+
+}
+
+p{
+   margin:20px; 
+}
+
+
+
+#box-a{
+    border-radius: 10px;
+    background-color: aliceblue;
+    border: 1px gray solid;
+    box-shadow: 10px 10px 10px #aaaaaa;
+    background-color:wheat;
+    color:whitesmoke;
+    
+
+}
+
+#box-b{
+    border-radius: 10px;
+    background-color: aliceblue;
+    border: 1px gray solid;
+    box-shadow: 10px 10px 10px #aaaaaa;
+    background-color:brown ;
+    color:whitesmoke;
+    
+}
+
+#box-c{
+    border-radius: 10px;
+    background-color: aliceblue;
+    border: 1px gray solid;
+    box-shadow: 10px 10px 10px #aaaaaa;
+}
+
+footer{
+    background-color: brown;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:whitesmoke;
+
+}
